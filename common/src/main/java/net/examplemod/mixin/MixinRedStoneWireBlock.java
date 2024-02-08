@@ -62,7 +62,6 @@ public class MixinRedStoneWireBlock {
         } else {
             COLOURS = generateColors("#FF0000");
         }
-        System.err.println("RedStoneWireBlock Constructor Injection Invoked");
     }
 
     private boolean loadRedstoneConfig() {
